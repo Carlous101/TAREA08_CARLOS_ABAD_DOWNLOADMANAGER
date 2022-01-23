@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_outer"
+    tools:context="com.example.android.downloader.simple.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="downloadAFile"
+        android:text="Descargar Archivo"
+        android:visibility="visible" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="useInList"
+        android:text="Carlos Abad - Listado de PDF's"
+        android:textColor="#FBFBFB"
+        android:textColorHighlight="#278B8B" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="downloadManager"
+        android:text="Descargar de la página"
+        android:visibility="visible" />
+
+</LinearLayout>
